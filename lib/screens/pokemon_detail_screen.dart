@@ -39,11 +39,10 @@ class PokemonDetailScreen extends StatelessWidget {
                 length: 3,
                 child: Column(
                   children: [
-                    SizedBox(height: 80), // space for the image
+                    SizedBox(height: 80),
                     TabBar(
-                      labelColor: Colors.black, // Color of the selected tab
-                      unselectedLabelColor:
-                          Colors.grey, // Color of the unselected tabs
+                      labelColor: Colors.black,
+                      unselectedLabelColor: Colors.grey,
                       tabs: [
                         Tab(text: 'About'),
                         Tab(text: 'Base Stats'),
@@ -86,7 +85,7 @@ class PokemonDetailScreen extends StatelessWidget {
                             ),
                           ),
                           Center(
-                            child: Text('Evolution details go here'),
+                            child: Text('-'),
                           ),
                         ],
                       ),
